@@ -14,17 +14,6 @@ def avito_cities_checker():
     for i in all_links:
         for j in i:
             print(j)
-    # "/lichnye_veschi" = 'Личные вещи'
-    # "/transport" = 'Транспорт'
-    # "/rabota" = 'Работа'
-    # "/zapchasti_i_aksessuary" = 'Автозапчасти и аксессуары'
-    # "/dlya_doma_i_dachi" = 'Для дома и дачи'
-    # "/nedvizhimost" = 'Недвижимость'
-    # "/predlozheniya_uslug" = 'Предложение услуг'
-    # "/hobbi_i_otdyh" = 'Хобби и отдых'
-    # "/bytovaya_elektronika" = 'Электроника'
-    # "/zhivotnye" = 'Животные'
-    # "/dlya_biznesa" = 'Готовый бизнес и оборудование'
 
 
 def avito_product_finder(product="ps vita", region="moskva", start_price=0, pages=1, savedata=None):
@@ -93,4 +82,4 @@ def avito_product_finder(product="ps vita", region="moskva", start_price=0, page
 
 
 # name = input("Введите запрос: ")
-avito_product_finder(str(input("Введите поисковый запрос: \n")), "moskva", start_price=int(input("Введите стартовую цену")), pages=4, savedata=None)
+avito_product_finder(str(input("Введите поисковый запрос: \n")), "moskva", start_price=int(input("Введите стартовую цену")), pages=4)
