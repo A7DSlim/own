@@ -93,11 +93,4 @@ def avito_product_finder(product="ps vita", region="moskva", start_price=0, page
 
 
 # name = input("Введите запрос: ")
-avito_product_finder(str(input("Введите поисковый запрос: \n")), "moskva", start_price=3000, pages=4, savedata='exel')
-# avito_cities_checker()
-#
-# Cannot open Local Terminal
-# No such directory: Path=c:\Users\abolovin\AppData\Local\Programs\Python\Python39\Scripts\\;
-# C:\Users\abolovin\AppData\Local\Programs\Python\Python39-32\Scripts\\;C:\Users\abolovin\AppData\Local\Programs\Python\Python39-32\\;
-# c:\Users\abolovin\AppData\Local\Programs\Python\Python39\
-#
+avito_product_finder(str(input("Введите поисковый запрос: \n")), "moskva", start_price=int(input("Введите стартовую цену")), pages=4, savedata=None)
